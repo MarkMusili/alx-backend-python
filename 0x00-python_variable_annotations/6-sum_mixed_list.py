@@ -10,4 +10,4 @@ def sum_list(input_list: List[Union[int, float]]) -> float:
     """
     Returns the sum of integers and floats as a float
     """
-    return float(sum(input_list))
+    return sum(input_list)
