@@ -5,6 +5,7 @@ and returns the sum(float) of the elements
 """
 from typing import Union
 
+
 def sum_list(input_list: list[Union[int, float]]) -> float:
     """
     Returns the sum of integers and floats as a float
