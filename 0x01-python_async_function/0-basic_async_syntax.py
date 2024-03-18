@@ -2,7 +2,6 @@
 """
 Basic asynchronous task
 """
-import asyncio
 import random
 
 
