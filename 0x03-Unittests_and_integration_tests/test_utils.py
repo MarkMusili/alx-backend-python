@@ -3,11 +3,16 @@
 Unittest for utils.access_nested_map
 """
 from parameterized import parameterized
+from utils import access_nested_map
 import unittest
-access_nested_map = __import__('utils').access_nested_map
+
 
 
 class TestAccessNestedMap (unittest.TestCase):
+    """
+    TestAccessNestedMap class for 
+    testing access_nested_map function
+    """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2}),
